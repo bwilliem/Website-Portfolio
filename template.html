@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'home/styles.css' %}" />
+    </head>
+    <body>
+        <nav class="menu">
+            <a href = "index.html" class = "home-tab active"><i class="fas fa-home"></i>Home</a>
+            <a href = "portfolio.html" class="portfolio-tab"><i class="fas fa-book"></i>Portfolio</a>
+            <a href = "contacts.html" class="contact-tab"><i class="far fa-id-badge"></i>Contacts</a>
+        </nav>
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>
