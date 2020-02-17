@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #0d172b;
+}
+
+#profile {
+    position: relative;
+    top: 80px;
+    right: 130px;
+}
+
+img#profile{
+    opacity: 0.6;
+    float: right;
+}
+
+/***************************************************Menu***************************************************************/
+
+.menu {
+    position: relative;
+    top: 30px;
+    color: #fff;
+    font-family: Ultima;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social i {
+    font-size: 0.5cm;
+    margin: 0px 7px;
+    
+}
+
+.login {
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    font-size: 18px;
+}
+
+/**************************************************Intro***************************************************************/
+
+.wrapperOpening {
+    position: relative;
+    top: 200px;
+    left: 130px;
+    width: 350px;
+}
+
+#intro {
+    color: #eae7dc;
+    font-family: Trench;
+    width: 550px;
+}
+
+#intro h1 {
+    color: #C3073F;
+    font-family: FinalFrontier;
+    font-size: 83px;
+}
+
+
+#intro p {
+    font-size: 23px;
+}
+
+/****************************************************Tabs**************************************************************/
+
+.tabs{
+    font-size: 15px;
+    padding: 10px 20px;
+    position: relative;
+    left: 20px;
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.tab {
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background 0.4s linear;
+    display: flex;
+}
+
+.tab i {
+    font-size: 0.5cm;
+    margin: auto;
+    color: #fff;
+}
+
+.tabs a {
+    text-decoration: none;
+}
+
+.tabs p {
+    font-weight: bold;
+    overflow: hidden;
+    max-width: 0;
+    transition: 0.2s;
+    font-family: Trench;
+}
+
+.tab.active p {
+    margin-left: 10px;
+    max-width: 200px;
+    transition: max-width 0.4s linear;
+}
+
+.tab.active {
+    background: rgba(234, 231, 220, 0.2);
+    color: rgba(234, 231, 220, 1);
+}
+
+/***********************************************Greatest Work & Decor**************************************************/
+
+.work {
+    background: #C3073F;
+    width: fit-content;
+    float: right;
+    position: relative;
+    top: -40px;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.work p {
+    font-family: FinalFrontier;
+    color: #0d172b;
+    font-size: 38px;
+    text-align: center;
+    
+}
+
+.line {
+    height: 2px;
+    background: #eae7dc;
+    position: relative;
+}
+
+.rightLong{
+    float: right;
+    
+}
+
+/* .rightShort {
+    float: right;
+} */
+
+/**********************************************Section*****************************************************************/
+
+section {
+    height: 300px;
+}
+
+/*********************************************Font Face****************************************************************/
+@font-face {
+    font-family: "FinalFrontier";
+    src: url(fonts/FINALOLD.TTF);
+}
+
+@font-face {
+    font-family: "Righteous";
+    src: url(fonts/Righteous-Regular.ttf);
+    /*not used*/
+}
+
+@font-face {
+    font-family: "Trench";
+    src: url(fonts/trench100free.otf);
+}
+
+@font-face {
+    font-family: "Ultima";
+    src: url(fonts/UltimaPDac-UltraLight.ttf);
+}
